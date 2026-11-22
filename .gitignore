@@ -1,0 +1,79 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Laravel Build & Runtime Storage
+/.phpunit.cache
+.phpunit.result.cache
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Environment, Secrets & Credentials (Dangerous to public)
+.env
+.env.*
+!.env.example
+/auth.json
+*.pem
+*.key
+*.crt
+
+# Databases & Backups (Dangerous to public)
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+*.sql
+*.sql.gz
+*.bak
+*.backup
+*.old
+
+# Static Mockups & Public Prototypes (Dangerous to public: bypasses auth / mock data)
+/public/*.html
+/public/admin.html
+/public/dashboard.html
+/public/portal.html
+/public/siswa.html
+/public/pembayaran.html
+/public/pemasukan.html
+/public/pengeluaran.html
+/public/laporan.html
+/resources/mockups/
+*.html
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Server & VM Configs
+Homestead.json
+Homestead.yaml
+
+# IDE & Editor Files
+.phpactor.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Agent & AI Configuration (Hidden from public)
+/.agents/
+/skills/
+/anti-slop/
+/antislop.md
+*.md
